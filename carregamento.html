@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Redirecionamento em 3 Segundos</title>
+
+    <style>
+        body {
+            background-color: black;
+        }
+
+        div {
+            color: aliceblue;
+            font-family: Arial, Helvetica, sans-serif;
+            display: flex;
+            justify-content: center;
+            margin-top: 300px;
+            font-size: 15px;
+        }
+    </style>
+</head>
+<body>
+
+<!-- Conteúdo da Página Atual (opcional) -->
+<div>
+    <h1>Redirecionando a página...</h1>
+</div>
+
+<script>
+    // Redireciona para a segunda página após 3 segundos
+    setTimeout(function() {
+        window.location.href = 'site-fake.html';
+    }, 3000);
+</script>
+
+</body>
+</html>
